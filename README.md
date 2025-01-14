@@ -20,12 +20,13 @@ bash run.sh
 其内容如下：  
 ```bash
 python run.py \
-    --exp_name you_exp_name \
+    --exp_name your_exp_name \
     --batch_size 32 \
     --epoch 50 \
     --label_smoothing 0.1 \
     --learning_rate 1e-5
 ```
+运行完毕后，中间过程的模型文件以及loss、top1、top5结果均存储在`saved_models/your_exp_name`文件夹。
 ## 实验结果
 
 <div style="text-align: center;">
