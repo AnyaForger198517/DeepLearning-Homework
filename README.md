@@ -32,11 +32,11 @@ python run.py \
   <tr>
     <td>
       <img src="saved_res_imgs/metric_of_basic.png" alt="改变Label Smoothing(LS)和Weight Decay(WD)实验结果" width="300">
-      <p>改变Label Smoothing(LS)和Weight Decay(WD)的消融实验结果</p>
+      <p>change Label Smoothing(LS)和Weight Decay(WD)</p>
     </td>
     <td>
       <img src="saved_res_imgs/metric_of_WD0p01.png" alt="改变Patch Size(PS)和Skip Connection(skipC)实验结果" width="450">
-      <p>改变Patch Size(PS)和Skip Connection(skipC)的消融实验结果</p>
+      <p>change Patch Size(PS)和Skip Connection(skipC)</p>
     </td>
   </tr>
 </table>
