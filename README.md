@@ -28,6 +28,9 @@ python run.py \
 ```
 ## 实验结果
 
+![本地图片](saved_res_imgs/metric_of_basic.png)
+![本地图片](saved_res_imgs/metric_of_WD0p01.png)
+
 
 
 
