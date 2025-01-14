@@ -28,17 +28,22 @@ python run.py \
 ```
 ## 实验结果
 
-<table style="margin: auto;">
-  <tr>
-    <td>
-      <img src="saved_res_imgs/metric_of_basic.png" alt="改变Label Smoothing(LS)和Weight Decay(WD)实验结果" width="300">
-      <p>change Label Smoothing(LS)和Weight Decay(WD)</p>
-    </td>
-    <td>
-      <img src="saved_res_imgs/metric_of_WD0p01.png" alt="改变Patch Size(PS)和Skip Connection(skipC)实验结果" width="450">
-      <p>change Patch Size(PS)和Skip Connection(skipC)</p>
-    </td>
-  </tr>
-</table>
-
+<div style="text-align: center;">
+  <table style="margin: auto; border-collapse: collapse;">
+    <tr>
+      <td style="padding: 10px; text-align: center;">
+        <img src="saved_res_imgs/metric_of_basic.png" alt="改变Label Smoothing(LS)和Weight Decay(WD)实验结果" width="250">
+        <p>Change Label Smoothing(LS) and Weight Decay(WD)</p>
+      </td>
+      <td style="padding: 10px; text-align: center;">
+        <img src="saved_res_imgs/metric_of_WD0p01.png" alt="改变Patch Size(PS)和Skip Connection(skipC)实验结果" width="380">
+        <p>Change Patch Size(PS) and Skip Connection(skipC)</p>
+      </td>
+    <td style="padding: 10px; text-align: center;">
+        <img src="saved_res_imgs/DA.png" alt="数据增强实验结果" width="250">
+        <p>Using Data Augmentation</p>
+      </td>
+    </tr>
+  </table>
+</div>
 
