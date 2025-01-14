@@ -1,4 +1,4 @@
-# 实验环境
+## 实验环境
 python版本为3.7.16  
 ```bash
 pip install -r requirements.txt
@@ -11,9 +11,9 @@ Pillow==11.1.0
 torch==2.1.2  
 torchvision==0.11.3  
 tqdm==4.66.4  
-# 数据集下载
+## 数据集下载
 使用的Tiny-Imagenet-200数据集可以在该[网站](https://www.kaggle.com/datasets/nikhilshingadiya/tinyimagenet200)中下载，克隆项目之后将数据集放置在项目下的第一级目录即可（和saved_models同级）
-# 运行方式
+## 运行方式
 ```bash
 bash run.sh
 ```
@@ -26,7 +26,7 @@ python run.py \
     --label_smoothing 0.1 \
     --learning_rate 1e-5
 ```
-# 实验结果
+## 实验结果
 
 
 
